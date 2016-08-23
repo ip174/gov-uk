@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="main.js"></script>
+<link rel="stylesheet" href="main.css" >
+</head>
+<body>
+<div class="container">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="index.html">GOV UK</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="#">JOBS</a></li>
+			<li><a href="#">APPLICANTS</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	
+    <ol class="breadcrumb">
+        <li class="active">Home</li>
+    </ol>
+	
+	<div style="position:relative; width: 100%; margin:20px 0;">
+		<div id="searcharea">
+			<input type="search" name="search" autocomplete='off' id="search" class="form-control" placeholder="Search by name or number.." />
+		</div>
+		<div id="update"></div>
+	</div>
+	<br clear="both">
+	<table id="applicants_tables" class="table table-hover">
+		<thead>
+			<tr>
+				<th>Firstname</th>
+				<th>Lastname</th>
+				<th>Email</th>
+				<th>Phone</th>
+				<th>Position</th>
+				<th>Date applied</th>
+			</tr>
+		</thead>
+		<tbody>
+
+		</tbody>
+		<input type="hidden" id="_hidden">
+	</table>
+</div>	
+</body>
+</html> 
