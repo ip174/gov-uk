@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://govuk-frontend-toolkit.appspot.com"
+        }
+    ],
+    "require": {
+        "alphagov/govuk_frontend_toolkit": "dev-master"
+    }
+}
