@@ -9,9 +9,12 @@ body{
 	color: $text-colour;
 	background: $page-colour; 
 }
+
 .global-header{
 	width: $width;
+	position: relative;
 }
+
 .navbar {
 	width: $width;
 	background: $black; 
@@ -32,6 +35,7 @@ body{
     line-height: 1.76923;
     font-weight: 400;
     padding: 6px;
+    box-sizing: border-box;
 }
 .border-header{
 	background: $govuk-blue;
@@ -42,12 +46,13 @@ body{
 
 .breadcrumb{
 	background: none;	
+	margin-bottom: 20px;
 }
 
 .breadcrumb ol li{
 	font-family: $NTA-Light;
     font-size: 14px;
-    line-height: 1.14286;
+    line-height: 1.14;
     font-weight: 400;
     text-transform: none;
     font-size-adjust: 0.5;
@@ -56,21 +61,44 @@ body{
     background-repeat: no-repeat;
     float: left;
     list-style: none;
-    margin-left: 0;
     margin-right: 0.5em;
     margin-bottom: 0.4em;
     padding-right: 1em;
     text-decoration: underline;
 }
 
-table tr{
+#applicants_tables tr{
     width: 100%;
     border-collapse: collapse;
     border: 1px solid $grey-2;	
+}
+
+#applicants_tables tr td:hover{
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 #applicants_tables tr th{
 	font-weight: bold;	
 	padding: 10px;
 	font-size: 18px;
+}
+
+#update{
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    background: $white;
+    z-index: 1030;
+    width: 263px;
+    border: 1px solid $grey-2;
+}
+
+#update ul li{
+	list-style: none;
+	text-align: left;
+}
+
+.panel{
+	background: $grey-3;
 }

@@ -9,9 +9,10 @@
 		"location":"Manchester, UK", 
 		"education":"BSc Computer Science, Cambridge Universtity", 
 		"previous_employer":"Google", 
-		"previous_role":"Web engineer", 
+		"previous_role":"Web Developer", 
 		"work_experience":"In an agency or as a freelancer, a web developer's job is to create products that meet clients' needs. The work can be particularly varied with many projects to work on simultaneously and lots of meetings with clients to discuss their requirements and update them on progress.In all cases a web developer's primary task is creating reliable and high performing applications and services, which can be accessed over the internet.", 
 		"skills":"HTML, CSS, Javascript, SQL, NodeJS, PHP, Python, C++", 
+		"position_applied":"Web Engineer",
 		"date_applied":"04/07/2016", 
 		"notice_period":"1 month", 
 		"salary_expected":"48000 per annum"
@@ -28,7 +29,8 @@
 		"previous_employer":"HP", 
 		"previous_role":"Web engineer", 
 		"work_experience":"I developed new web based applications and services using a range of tools and techonlogies.", 
-		"skills":"HTML, 'Laravel', NodeJS, PHP, Python, JAVA", 
+		"skills":"HTML, Laravel, NodeJS, PHP, Python, JAVA", 
+		"position_applied":"Web Engineer",		
 		"date_applied":"21/05/2016", 
 		"notice_period":"2 weeks", 
 		"salary_expected":"45000 per annum"
@@ -46,6 +48,7 @@
 		"previous_role":"n/a", 
 		"work_experience":"", 
 		"skills":"HTML, 'JS', Jquery, NodeJS", 
+		"position_applied":"Web Engineer",		
 		"date_applied":"03/07/2016", 
 		"notice_period":"3 weeks", 
 		"salary_expected":"25000 per annum"
@@ -60,9 +63,10 @@
 		"location":"London, UK", 
 		"education":"A levels, Barnet College", 
 		"previous_employer":"First Digital", 
-		"previous_role":"Junior Web engineer", 
+		"previous_role":"Junior Web developer", 
 		"work_experience":"As Junior Web Developer, I was orking closely with the lead developer to deliver high quality projects, I worked in a fast-paced environment and ready to work with high-profile clients", 
 		"skills":"HTML, NodeJS, PHP, Python", 
+		"position_applied":"Web Engineer",		
 		"date_applied":"2/03/2016", 
 		"notice_period":"4 weeks", 
 		"salary_expected":"27000 per annum"

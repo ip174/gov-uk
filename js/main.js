@@ -13,7 +13,7 @@ function getData(){
 				'</td><td>'+data[i].lastName+
 				'</td><td>'+data[i].email+
 				'</td><td>'+data[i].phone+
-				'</td><td>'+data[i].previous_role+
+				'</td><td>'+data[i].position_applied+
 				'</td><td>'+data[i].date_applied+'</td></tr>'
 			); 
 		}
@@ -25,7 +25,9 @@ function search(){
 	//search by name or phone
 	$('#search').keyup(function() {
 	var searchTerm = $(this).val(); 
+	if(searchTerm != ''){
 	var myExp = new RegExp(searchTerm, "i"); 
+	$('#update').show();
 	$.getJSON(objJSON, function(data){
 		var output = "<ul id='result'>";
 		$.each(data, function(key, val){
@@ -38,6 +40,7 @@ function search(){
 		output += "</ul>";
 		$('#update').html(output);//output result to the update div
 		});
+	}else{$('#update').slideUp('fast');}
 	});	
 }
 
