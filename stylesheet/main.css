@@ -15,6 +15,9 @@ body {
 .navbar-right {
   margin-right: 0px; }
 
+#searcharea {
+  position: relative; }
+
 .navbar #searcharea input {
   width: 263px;
   height: 36px;
@@ -69,13 +72,13 @@ body {
   font-size: 18px; }
 
 #update {
-  position: absolute;
-  top: 42px;
-  right: 0px;
+  width: 263px;
   background: #fff;
   z-index: 1030;
-  width: 263px;
-  border: 1px solid #bfc1c3; }
+  border: 1px solid #bfc1c3;
+  position: absolute;
+  top: 0xp;
+  left: 0px; }
 
 #update ul li {
   list-style: none;

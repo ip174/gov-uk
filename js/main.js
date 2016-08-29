@@ -49,7 +49,7 @@ function displayAllInfo(userID){
 	//alert(userID);
 	$.getJSON(objJSON, function( data ) {
 		for (var i=0; i<=data.length; i++){
-			if(data[i].userID == userID){
+			if(data[i].userID != '' && (data[i].userID == userID)){
 				$('.display').append('<tr class="name"><td><h2>'+data[i].firstName+' '+data[i].lastName+'</h2></td></tr>'+
 					'<tr><td style="width:20%; ">Date of birth</td><td>'+data[i].DOB+'</td></tr>'+
 					'<tr><td>Gender</td><td>'+data[i].gender+'</td></tr>'+
