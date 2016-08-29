@@ -14,10 +14,7 @@ https://github.com/ionpantalon/gov-uk.git
 * To test open your browser and navigate to localhost/your/path/gov-uk/index.html
 
 Linux:
-$ cd /var/www/html/
-$ git clone https://github.com/ionpantalon/gov-uk.git
-* To test open your browser and navigate to localhost/your/path/gov-uk/index.htmlopen 
-
-
-##TESTS
+* $ cd /var/www/html/
+* $ git clone https://github.com/ionpantalon/gov-uk.git
+* To test open your browser and navigate to localhost/your/path/gov-uk/index.html
 
