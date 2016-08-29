@@ -1,0 +1,76 @@
+@import '../components/govuk_frontend_toolkit/stylesheets/colours/_palette';
+@import '../components/govuk_frontend_toolkit/stylesheets/colours/_organisation';
+@import '../components/govuk_frontend_toolkit/stylesheets/_grid_layout';
+@import '../components/govuk_frontend_toolkit/stylesheets/_font_stack';
+
+$width: 100%;
+body{
+	font-family: $Helvetica-Regular;
+	color: $text-colour;
+	background: $page-colour; 
+}
+.global-header{
+	width: $width;
+}
+.navbar {
+	width: $width;
+	background: $black; 
+	border: none;
+}
+
+.navbar-right{
+	margin-right: 0px;	
+}
+
+.navbar #searcharea input{
+	width: 263px;
+	height: 36px; 
+	margin-top: 6.5px;
+	border-radius: 0px;
+	font-family: $NTA-Light;
+    font-size: 14px;
+    line-height: 1.76923;
+    font-weight: 400;
+    padding: 6px;
+}
+.border-header{
+	background: $govuk-blue;
+	width: $width;
+	height: 10px;
+	margin-top: 30px;
+}
+
+.breadcrumb{
+	background: none;	
+}
+
+.breadcrumb ol li{
+	font-family: $NTA-Light;
+    font-size: 14px;
+    line-height: 1.14286;
+    font-weight: 400;
+    text-transform: none;
+    font-size-adjust: 0.5;
+    background-image: url(https://assets.publishing.service.gov.uk/static/separator-871ef28abf1920b1b8050934ebec4366c18e3cba6ddb704392935e076a7e744d.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    float: left;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    padding-right: 1em;
+    text-decoration: underline;
+}
+
+table tr{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid $grey-2;	
+}
+
+#applicants_tables tr th{
+	font-weight: bold;	
+	padding: 10px;
+	font-size: 18px;
+}

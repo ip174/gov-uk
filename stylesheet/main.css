@@ -1,0 +1,65 @@
+body {
+  font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+  color: #0b0c0c;
+  background: #fff; }
+
+.global-header {
+  width: 100%; }
+
+.navbar {
+  width: 100%;
+  background: #0b0c0c;
+  border: none; }
+
+.navbar-right {
+  margin-right: 0px; }
+
+.navbar #searcharea input {
+  width: 263px;
+  height: 36px;
+  margin-top: 6.5px;
+  border-radius: 0px;
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.76923;
+  font-weight: 400;
+  padding: 6px; }
+
+.border-header {
+  background: #005ea5;
+  width: 100%;
+  height: 10px;
+  margin-top: 30px; }
+
+.breadcrumb {
+  background: none; }
+
+.breadcrumb ol li {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.14286;
+  font-weight: 400;
+  text-transform: none;
+  font-size-adjust: 0.5;
+  background-image: url(https://assets.publishing.service.gov.uk/static/separator-871ef28abf1920b1b8050934ebec4366c18e3cba6ddb704392935e076a7e744d.png);
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  float: left;
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0.5em;
+  margin-bottom: 0.4em;
+  padding-right: 1em;
+  text-decoration: underline; }
+
+table tr {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #bfc1c3; }
+
+#applicants_tables tr th {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 18px; }
+
+/*# sourceMappingURL=main.css.map */
